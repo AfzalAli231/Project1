@@ -3,7 +3,7 @@
     .showcase{
         width: 100vw;
         height: 100vh;
-        background: linear-gradient(rgba(16, 29, 44,0.83), rgba(178, 133, 81, 0.8)) ,url('./img/header.jpg') no-repeat center center/cover;
+        background: linear-gradient(rgba(16, 29, 44,0.83), rgba(178, 133, 81, 0.8)) ,url('./header.jpg') no-repeat center center/cover;
         background-size: 100% 100%, cover;
         padding-left: 5rem;
     }
@@ -43,7 +43,7 @@
     
     #home-info .info-img {
         width: 50%;
-        background: linear-gradient(rgba(16, 29, 44,0.3),rgba(16, 29, 44,0.83)) ,url('./img/intro.jpg') no-repeat fixed;
+        background: linear-gradient(rgba(16, 29, 44,0.3),rgba(16, 29, 44,0.83)) ,url('./intro.jpg') no-repeat fixed;
         background-size: 100% 100%,cover;
         min-height: 100%;
     }
