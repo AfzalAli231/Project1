@@ -1,0 +1,108 @@
+@media (max-width: 425px)
+{
+.navbar {
+  width: 100%;
+  margin-right: 10rem;
+  background-color: brown;
+}
+
+#showcase{
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(rgba(16, 29, 44,0.83), rgba(178, 133, 81, 0.8)) ,url('./img/header.jpg') no-repeat center center/cover;
+  background-size: 100% 100%, cover;
+  padding-left: 5rem;
+}
+
+#showcase .showcase-content{
+  color: #fff;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 20rem;
+}
+
+#showcase .showcase-content h1{
+  font-size: 25px;
+  line-height: 1.1em;
+  padding-bottom: 3rem;
+  text-align: center;
+}
+
+#showcase .showcase-content h1 span{
+  color: var(--color-primary-dark);
+}
+
+#showcase .showcase-content p{
+  font-size: 18px;
+  line-height: 3rem;
+  padding-bottom: 4rem;
+  text-align: center;
+}
+
+#home-info .info-img {
+  display: none;
+}
+
+#home-info .info-content{
+  background-image: url(./img/AI.jpg);
+  font-size: 16px;
+  width: 100vw;
+  padding: 25rem 0;
+}
+
+#home-info .info-content{
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  padding: 2rem 7rem;
+}
+
+#home-info .info-content h2 {
+  font-size: 3rem;
+  line-height: 5rem;
+}
+
+.guest-says .container h2 {
+  font-size: 4rem;
+  padding-top: 4rem;
+  line-height: 3rem;
+}
+
+#home-info .info-content .btn{
+  text-align: center;
+  font-size: 15px;
+  float: top;
+}
+
+.about-info .info-left h1{
+  font-size: 4rem;
+  padding-top: 4rem;
+  line-height: 7rem;
+}
+
+.about-info .info-right img{
+height: 20rem;
+width: 20rem;
+}
+
+.boxes{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1.5rem;
+}
+
+.box{
+  width: 100%;
+  text-align: center;
+}
+
+.box h3{
+  font-size: 4rem;
+}
+}
